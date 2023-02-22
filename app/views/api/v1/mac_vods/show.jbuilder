@@ -1,0 +1,9 @@
+json.vod_name @macvod.vod_name
+json.vod_id @macvod.id
+json.vod_actor @macvod.vod_actor.split(',')
+json.vod_director @macvod.vod_director.split(',')
+json.vod_blurb @macvod.vod_blurb
+json.vod_class @macvod.vod_class
+json.vod_area @macvod.vod_area
+json.vod_pic @macvod.vod_pic
+json.play_list @macvod.vod_play_url.split('#')
